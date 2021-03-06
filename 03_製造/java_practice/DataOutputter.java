@@ -1,6 +1,6 @@
 package java_practice;
 
-public interface DataOutputer {
+public interface DataOutputter {
 
 	/**
 	 * データを出力する

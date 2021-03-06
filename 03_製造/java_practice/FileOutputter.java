@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 
-public class FileOutputer implements DataOutputer {
+public class FileOutputter implements DataOutputter {
 
 	/**
 	 * 読み込み対象ファイルのパス
@@ -16,13 +16,13 @@ public class FileOutputer implements DataOutputer {
 	 * デフォルトコンストラクタ Privateとして使用させない
 	 */
 	@SuppressWarnings("unused")
-	private FileOutputer() {
+	private FileOutputter() {
 	}
 
 	/**
 	 * コンストラクタ 出力するファイルパスを指定する
 	 */
-	public FileOutputer(String argFilePath) {
+	public FileOutputter(String argFilePath) {
 		System.out.println("FileOutputer Constructor Execute");
 		this.filePath = argFilePath;
 	}
